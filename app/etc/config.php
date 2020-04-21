@@ -246,7 +246,11 @@ return [
         'MSP_TwoFactorAuth' => 1,
         'Temando_Shipping' => 1,
         'Unit1_Test' => 1,
-        'Unit1_Test2' => 1,
+        'Unit3_HelloWorldBlock' => 1,
+        'Unit3_ProductViewDescriptionBlock' => 1,
+        'Unit3_ProductViewDescriptionPlugin' => 1,
+        'Unit3_TemplateBlock' => 1,
+        'Unit3_TestBlock' => 1,
         'Vertex_Tax' => 1,
         'Vertex_AddressValidation' => 1,
         'Yotpo_Yotpo' => 1
