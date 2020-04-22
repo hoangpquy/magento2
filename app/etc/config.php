@@ -247,6 +247,7 @@ return [
         'Temando_Shipping' => 1,
         'Unit1_Test' => 1,
         'Unit3_HelloWorldBlock' => 1,
+        'Unit3_Layout' => 1,
         'Unit3_ProductViewDescriptionBlock' => 1,
         'Unit3_ProductViewDescriptionPlugin' => 1,
         'Unit3_TemplateBlock' => 1,
