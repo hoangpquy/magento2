@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="2column-left" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks"/>
+    <body>
+        <referenceBlock name="header.links">
+            <block class="Magento\Framework\View\Element\Html\Link" name="shop-setting">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="true">Shop Setting</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Customer\Block\Account\RegisterLink" name="register-link">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="true">Member Login</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_src" xsi:type="string">images/my_logo.png</argument>
+                <argument name="logo_img_width" xsi:type="number">100</argument>
+                <argument name="logo_img_height" xsi:type="number">50</argument>
+                <argument name="logo_alt" xsi:type="string">Logo name</argument>
+            </arguments>
+        </referenceBlock>
+        <referenceContainer name="content.bottom">
+            <block class="Magento\Cms\Block\Block" name="custom-block">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">custom-block</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Cms\Block\Block" name="custom-block">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">custom-block</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+        <referenceBlock name="report.bugs" remove="true"/>
+    </body>
+</page>

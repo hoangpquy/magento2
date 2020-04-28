@@ -51,6 +51,19 @@ module.exports = {
         ],
         dsl: 'less'
     },
+    franco1: {
+        area: 'frontend',
+        name: 'AHT/franco1',
+        locale: 'en_US',
+        files: [
+            'css/styles-m',
+            'css/styles-l',
+            'css/email',
+            'css/email-inline'
+        ],
+        dsl: 'less'
+
+    },
     backend: {
         area: 'adminhtml',
         name: 'Magento/backend',
