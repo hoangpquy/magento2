@@ -28,17 +28,14 @@
                 <argument name="logo_alt" xsi:type="string">Logo name</argument>
             </arguments>
         </referenceBlock>
-        <referenceContainer name="content.bottom">
-            <block class="Magento\Cms\Block\Block" name="custom-block">
+        <referenceContainer name="content">
+            <block class="Unit3\HelloBlock\Block\Test" name="hello.block" template="Unit3_HelloBlock::index.phtml">
                 <arguments>
-                    <argument name="block_id" xsi:type="string">custom-block</argument>
+                    <argument name="block_text" xsi:type="string">Custom string</argument>
+                    <argument name="block_number" xsi:type="number">100</argument>
                 </arguments>
             </block>
-            <block class="Magento\Cms\Block\Block" name="custom-block">
-                <arguments>
-                    <argument name="block_id" xsi:type="string">custom-block</argument>
-                </arguments>
-            </block>
+    
         </referenceContainer>
         <referenceBlock name="report.bugs" remove="true"/>
     </body>
