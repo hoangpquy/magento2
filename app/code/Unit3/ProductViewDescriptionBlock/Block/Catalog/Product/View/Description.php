@@ -4,7 +4,7 @@
 * Copyright © Magento. All rights reserved.
 * See COPYING.txt for license details.
 */
-namespace Unit3\ProductViewDescriptionBlock\Block\Product\View;
+namespace Unit3\ProductViewDescriptionBlock\Block\Catalog\Product\View;
 /**
 * Class Description
 * @package Unit3\ProductViewDescriptionPlugin\Block\Product\View

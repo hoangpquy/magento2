@@ -7,6 +7,11 @@
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
-        <link src="Magento_Theme::favicon-32x32.png" rel="icon" sizes="32x32" />
+        <link src="Magento_Theme::favicon-32x32.png" rel="icon" sizes="32x32"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <css rel="stylesheet" src_type="url" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+        <css rel="stylesheet" src_type="url" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css" src_type="url" src="/css/source/styles.css"/>
     </head>
 </page>

@@ -3,5 +3,8 @@
     <body>
         <move element="product.info.stock.sku" destination="product.info.price" before="product.info.main"/>
         <move element="product.info.review" destination="product.info.main" after="product.info.price"/>
+        <referenceContainer name="product.info.main">
+        </referenceContainer>
+        <referenceContainer name="product.info.options.wrapper" remove="true"/>
     </body>
 </page>
